@@ -4,14 +4,14 @@
     "email": "david@davidherron.com",
     "url": "http://nodejs.davidherron.com"
   },
-  "name": "akashacms-boilerplate",
+  "name": "akashacms-theme-boilerplate",
   "description": "A theme for AkashaCMS that supports the Twitter Bootstrap framework",
-  "homepage": "https://github.com/robogeek/akashacms-boilerplate",
+  "homepage": "https://github.com/robogeek/akashacms-theme-boilerplate",
   "repository": {
     "type": "git",
-    "url": "git://github.com/robogeek/akashacms-boilerplate.git"
+    "url": "git://github.com/robogeek/akashacms-theme-boilerplate.git"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "node": ">=0.10.1"
   },

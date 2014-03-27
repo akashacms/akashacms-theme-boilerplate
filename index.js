@@ -3,7 +3,7 @@ var path     = require('path');
 module.exports.config = function(akasha, config) {
     // config.root_partials.push(path.join(__dirname, 'partials'));
     config.root_layouts.push(path.join(__dirname, 'layout'));
-    config.root_assets.push(path.join(__dirname, 'assets'));
+    config.root_assets.unshift(path.join(__dirname, 'assets'));
     // config.root_assets.push(path.join(__dirname, 'assets'));
     
     if (config.data.headerScripts) {
