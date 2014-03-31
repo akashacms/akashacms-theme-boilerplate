@@ -6,6 +6,13 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<%
+// Our site title and description 
+if (typeof pagetitle !== "undefined") {
+         %><title><%= pagetitle %></title><% 
+} else if (typeof title !== "undefined") {
+         %><title><%= title %></title><% 
+} %>
 <%- akDoHeaderMeta(locals) %>
 <%- partial('ak_sitemap.html.ejs') %>
 <%- partial('ak_siteverification.html.ejs', locals) %>
