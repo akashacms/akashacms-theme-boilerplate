@@ -13,7 +13,9 @@ if (typeof pagetitle !== "undefined") {
 } else if (typeof title !== "undefined") {
          %><title><%= title %></title><% 
 } %>
-<ak-header-metatags/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Place favicon.ico in the root directory -->
+<%- akDoHeaderMeta(locals) %>
 <%- partial('ak_sitemap.html.ejs') %>
 <%- partial('ak_siteverification.html.ejs', locals) %>
 <!-- http://en.wikipedia.org/wiki/Canonical_link_element -->
